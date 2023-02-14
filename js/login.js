@@ -11,9 +11,10 @@ document.getElementById('submit-btn').addEventListener('click',function(){
     const password=passwordField.value;
     // console.log(password);
     if(email === "enahaque79@gmail.com" && password === "enahaque79"){
-        console.log('valid user');
+        // console.log('valid user');
+        window.location.href='bank.html'
     }else{
-        console.log('invalid user!!');
+        alert('invalid user!!');
     }
 
 });
